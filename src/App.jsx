@@ -4,11 +4,13 @@ import './App.css'
 import Navbar from './components/Navbar'
 import NewsBoard from './components/NewsBoard'
 import Newsitem from './components/Newsitem'
+import cors from 'cors'
 
 
 
 function App() {
   const [category,setCategory]=useState("general")
+ 
 
 
   return <div>
